@@ -76,7 +76,11 @@ public class CamBaseV2 {
      */
     public void startPreview(Surface previewSurface) {
         Log.e(TAG, "CamBaseV2, Try start preview.");
-        mCamSession.startPreview(previewSurface, createPostProcess());
+        if (mCamSession != null) {
+            mCamSession.startPreview(previewSurface, createPostProcess());
+        } else {
+            Log.e(TAG, "No CamSession, Maybe camera not open yet.");
+        }
     }
 
     /**

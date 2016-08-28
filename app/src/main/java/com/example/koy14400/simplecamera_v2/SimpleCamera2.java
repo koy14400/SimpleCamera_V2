@@ -16,7 +16,6 @@ import com.example.koy14400.simplecamera_v2.previewtype.CamGLPreviewV2;
 import com.example.koy14400.simplecamera_v2.previewtype.CamPreviewV2;
 import com.example.koy14400.simplecamera_v2.previewtype.CamSurfacePreviewV2;
 import com.example.koy14400.simplecamera_v2.previewtype.CamTexturePreviewV2;
-import com.example.koy14400.simplecamera_v2.previewtype.PermissionController;
 
 public class SimpleCamera2 extends AppCompatActivity {
     public static final String TAG = "SimpleCamera2";

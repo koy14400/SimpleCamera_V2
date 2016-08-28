@@ -1,4 +1,4 @@
-package com.example.koy14400.simplecamera_v2.previewtype;
+package com.example.koy14400.simplecamera_v2;
 
 import android.Manifest;
 import android.annotation.TargetApi;
